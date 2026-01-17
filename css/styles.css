@@ -1,0 +1,275 @@
+body
+{
+    font-size: 16px;
+}
+.navbar-brand{
+    background-color: white;
+    margin: 5px;
+    border-radius: 40px;
+}
+.first-name
+{
+    margin-top: 450px;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+.last-name
+{
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.fill-screen
+{
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.fixed-attachement{
+    background-attachment: fixed;
+}
+.title 
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    padding: 20px;
+    top: 40%;
+    left: 50%;
+    margin-right: -50px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: gray;
+}
+.sec-header h3
+{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.sec-header{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.para p{
+    padding: 30px;
+    text-align: justify;
+    border-radius: 20px;
+}
+.table-custom{
+    font-size: 100%;
+}
+.details{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.table-custom dt{
+    text-align: left;
+    font-weight: bold;
+}
+.table-custom dd {
+    text-align: justify;
+}
+.social-custom{
+    position: absolute;
+    bottom: -180px;
+}
+.social a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 3px;
+    color: black;
+}
+.card-container
+{
+    perspective: 700px;
+    -webkit-perspective: 700px;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 250px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: whitesmoke;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.front
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(198, 194, 194);
+    border-radius: 10px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.cpos
+{
+    text-align: center;
+}
+.progress-bar {
+    padding: 5px 0px;
+    text-align: center;
+}
+.progress-bar h3{
+    color: rgb(39, 49, 46);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+}
+.progress-bar h3 span{
+    float: right;
+    padding-bottom: 4px;
+}
+.progress-bar ul li{
+    padding: 10px 10px;
+}
+.bar{
+    height: 6px;
+    background: rgba(170,170,170,0.34);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bar span{
+    height: 6px;
+    float: left;
+    border-radius: 5px;
+}
+.html{
+    background: rgb(240, 162, 16);
+    width: 70%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.css{
+    background: rgb(97, 155, 248);
+    width: 70%;
+    animation: css 3s;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.js{
+    background: rgb(243, 216, 43);
+    width: 50%;
+    animation: js 3s;
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.bootstrap{
+    background: rgb(147, 15, 147);
+    width: 60%;
+    animation: bootstrap 3s;
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.angular{
+    background: rgb(239, 28, 28);
+    width: 50%;
+    animation: angular 3s;
+}
+@keyframes angular{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.react{
+    background: rgb(14, 179, 239);
+    width: 50%;
+    animation: react 3s;
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.progress_icon{
+    color:orange;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.skill-level{
+    text-align: center;
+}
+/*.skill-cards{
+    margin-top: 10px;
+}*/
+.skill-tech{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+.ach-tech{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: justify;
+}
+.down-button{
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+}
+.down-icon a{
+    font-size: 300%;
+    color: brown;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+}
